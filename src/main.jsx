@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+
 import App from './App.jsx'
 import Hello from './Hello.jsx'
 import TextBoxRead from './textboxread.jsx'
@@ -8,9 +9,10 @@ import Heading from './Heading.jsx'
 import FruitStore from './FruitStore.jsx'
 import CheckBox from './CheckBox.jsx'
 import TextBox from './TextBox.jsx'
-import Button from './Button'
+import Button from './Button.jsx'
 import MyForm from './MyForm.jsx'
-import './FruitStore.css';
+
+import './FruitStore.css'
 /*const myjsx = <h3> I Love JSX </h3>
 const test = <h1> React is {5 + 5} times better with jsx</h1>
 
